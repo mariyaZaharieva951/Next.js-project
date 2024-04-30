@@ -11,7 +11,10 @@ module.exports = {
       fontFamily: {
         'custom-font': ['Inter', 'sans-serif'],
       }
-    },
+    }, colors: {
+      'button-bg': '#150050',
+      'white-text': '#FFFFFF'
+    }
   },
   plugins: [],
 }
