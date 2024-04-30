@@ -4,7 +4,10 @@ import Image from "next/image";
 export default function Home() {
   return (
     <main>
-      <Header/>
+      <div className='bg-gray-bg'>
+        <Header/>
+      </div>
+      
     </main>
   );
 }

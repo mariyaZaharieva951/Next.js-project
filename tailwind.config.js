@@ -13,7 +13,8 @@ module.exports = {
       }
     }, colors: {
       'button-bg': '#150050',
-      'white-text': '#FFFFFF'
+      'white-text': '#FFFFFF',
+      'gray-bg': '#F4F4F4'
     }
   },
   plugins: [],

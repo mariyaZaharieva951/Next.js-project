@@ -1,6 +1,8 @@
 'use client'
 import { useState } from 'react';
 import Link from 'next/link';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faBars } from '@fortawesome/free-solid-svg-icons';
 
 
 const Header = () => {
@@ -11,18 +13,18 @@ const Header = () => {
   };
 
   return (
-    <header className='flex justify-start items-center mx-auto max-w-6xl gap-12 font-custom-font m-5'>
-      <div className='flex justify-between content-center items-center gap-6 py-2'>
-        <div className=''>
+    <header className='flex justify-between lg:justify-start items-center m-auto w-full max-w-[1140px] h-[80px] gap-12 font-custom-font m-5'>
+      <div className='flex justify-between items-center gap-6 py-2'>
+        <div className='sm:ml-10'>
           <Link href="/">
             <img className='w-full' src="./assets/logo.png"/>
           </Link>
         </div>
       </div>
 
-      <nav className='gap-12 ml-10 hidden md:block lg:flex items-center content-center text-sm py-2'>
+      <nav className='lg:gap-12 hidden md:flex items-center text-sm lg:py-2'>
         <div className=''>
-          <ul className='flex justify-between gap-x-4  whitespace-nowrap mx-5'>
+          <ul className='flex justify-between lg:gap-x-4  whitespace-nowrap lg:mx-5'>
             <li>
               <Link href="/product" className='hover:bg-gray-100 hover:rounded-md px-4 py-2'>
                 Product
@@ -51,15 +53,18 @@ const Header = () => {
           </ul>
         </div>
 
-        <div className='flex justify-between gap-12 ml-12 pl-12 text-xs font-bold'>
-            <button className='border-2 bg-white rounded py-2 px-4'>Log in</button>
+        <div className='flex lg:justify-between lg:gap-12 lg:ml-12 lg:pl-12 text-xs font-bold'>
+            <button className='border-2 border-[#DCDCDC] bg-white rounded py-2 px-4'>Log in</button>
             <button className='border-2 bg-white rounded py-2 px-4 text-white-text bg-button-bg'>Try for Free</button>
         </div>
       </nav>
 
-      {/* <div className='md:hidden flex justify-end relative'>
+      <div className='md:hidden flex justify-end sm:mr-10 relative'>
+      <button onClick={toggleMenu} className='focus:outline-none'>
+          <FontAwesomeIcon className="fa-2xl" icon={faBars} />
+        </button>
         {isOpen && (
-          <nav className='absolute top-9 right-0 bg-white text-custom-bg shadow-md rounded-md'>
+          <nav className='absolute top-9 bg-white text-custom-bg shadow-md rounded-md'>
             <ul className='flex flex-col gap-y-2 text-sm'>
             <li>
               <Link href="/product" className='hover:bg-gray-100 hover:rounded-md px-4 py-2'>
@@ -89,12 +94,12 @@ const Header = () => {
             </ul>
 
             <div>
-                <button>Log in</button>
-                <button>Try for Free</button>
+                <button className='hover:bg-gray-100 hover:rounded-md px-4 py-2 text-sm mt-0'>Log in</button>
+                <button className='hover:bg-gray-100 hover:rounded-md px-4 py-2 text-sm whitespace-nowrap pt-0'>Try for Free</button>
             </div>
           </nav>
         )}
-      </div> */}
+      </div>
     </header>
   );
 };
