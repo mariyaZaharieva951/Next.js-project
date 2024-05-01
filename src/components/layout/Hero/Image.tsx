@@ -3,7 +3,7 @@ const Image = () => {
   
 
   return (
-    <div className="w-[1320px] h-[675px]">
+    <div className="lg:w-[1320px] lg:h-[675px] w-full">
        <img className="w-max-full h-auto" src="./assets/hero.png"/>
     </div>
   );

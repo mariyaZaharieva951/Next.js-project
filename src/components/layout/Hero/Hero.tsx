@@ -6,7 +6,7 @@ const Hero = () => {
   
 
   return (
-    <div className="flex mx-auto mt-10 pt-10 gap-2">
+    <div className="flex lg:flex-row flex-col lg:mx-auto mx-10 mt-10 pt-10 gap-2">
         <Introduction/>
         <Image/>
 

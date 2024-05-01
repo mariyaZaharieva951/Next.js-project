@@ -13,7 +13,7 @@ const Header = () => {
   };
 
   return (
-    <header className='flex justify-between lg:justify-start items-center m-auto w-full max-w-[1140px] h-[80px] gap-12 font-custom-font m-5'>
+    <header className='flex justify-between lg:justify-start items-center lg:m-auto lg:w-full max-w-[1140px] h-[80px] lg:gap-12 font-custom-font mx-5'>
       <div className='flex justify-between items-center gap-6 py-2'>
         <div className='sm:ml-10'>
           <Link href="/">
