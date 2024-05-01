@@ -1,6 +1,6 @@
 const Clients = () => {
     return (
-        <div className="flex justify-between items-center lg:m-auto lg:gap-2 lg:w-[1140px] lg:h-[40px]">
+        <div className="flex justify-between items-center lg:m-auto lg:gap-2 lg:w-[1140px] lg:h-[40px] lg:pb-12">
             <div className="lg:w-[219px] lg:h-[19px]"><img className="w-full h-auto" src="./assets/c1.png"/></div>
             <div className="lg:w-[98px] lg:h-[32px]"><img className="w-full h-auto" src="./assets/c2.png"/></div>
             <div className="lg:w-[136px] lg:h-[17px]"><img className="w-full h-auto" src="./assets/c3.png"/></div>
