@@ -53,7 +53,8 @@ const Header = () => {
           </ul>
         </div>
 
-        <div className='flex lg:justify-between lg:gap-3 lg:ml-12 lg:pl-12 text-xs font-bold'>
+        <div className='flex lg:justify-between lg:gap-3 lg:ml-[12
+          .0px] lg:pl-12 text-xs font-bold'>
             <button className='border-2 border-[#DCDCDC] bg-white rounded py-2 px-4'>Log in</button>
             <button className='border-2 bg-white rounded py-2 px-4 text-white-text bg-button-bg'>Try for Free</button>
         </div>
