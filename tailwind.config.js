@@ -19,9 +19,11 @@ module.exports = {
       'blue-h': '#2D0896',
       'blue-bg': '#150050',
       'blue-benefit': '#1E0A57',
-      'yellow': '#FFE377'
+      'yellow': '#FFE377',
+      'black-tx': '#000000',
     }
   },
+  
   plugins: [],
 }
 
