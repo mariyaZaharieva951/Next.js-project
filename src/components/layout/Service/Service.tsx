@@ -1,6 +1,6 @@
 const Service = () => {
     return (
-      <div className="custom-container flex lg:flex-row gap-12 flex-col lg:justify-between border-t-2 border-gray-dark font-custom-font lg:pt-10 mb-12">
+      <div className="custom-container flex lg:flex-row gap-12 flex-col lg:justify-between border-t-2 border-gray-dark font-custom-font lg:pt-10 pb-12">
         <div className="lg:w-[487px] w-[420px] mx-auto lg:mx-0 lg:h-auto flex flex-col items-start pr-5 mt-12">
             <p className="uppercase bg-yellow lg:text-sm text-xs font-bold px-2 py-1 rounded-md mb-3">service</p>
             <h2 className="lg:text-5xl text-3xl leading-relaxed font-bold">Help Desk Software</h2>

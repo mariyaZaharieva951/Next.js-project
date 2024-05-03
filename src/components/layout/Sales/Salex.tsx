@@ -1,6 +1,6 @@
 const Sales = () => {
     return (
-      <div className="custom-container flex lg:flex-row gap-12 flex-col lg:justify-between border-t-2 border-gray-dark font-custom-font lg:pt-10 mb-12">
+      <div className="custom-container flex lg:flex-row gap-12 flex-col lg:justify-center border-t-2 border-gray-dark font-custom-font lg:pt-10 pb-12">
         <div className="lg:w-[487px] w-[420px] mx-auto lg:mx-0 lg:h-auto flex flex-col items-start pr-5 mt-12">
             <p className="uppercase bg-yellow lg:text-sm text-xs font-bold px-2 py-1 rounded-md mb-3">sales</p>
             <h2 className="lg:text-5xl text-3xl leading-relaxed font-bold">Increase company revenue up to 65%</h2>
@@ -14,7 +14,7 @@ const Sales = () => {
                     Track stages and milestones of your deals to keep the sales process on track</li>
             </ul>
         </div>
-        <div className="lg:w-[555px] w-[500px] flex mx-auto lg:mx-0 lg:h-[555px] relative">
+        <div className="lg:w-[555px] w-[500px] flex mx-auto lg:mx-0 lg:h-[555px] h-auto relative">
             <img className="lg:w-full h-auto rounded-lg bg-blue-bg py-12 px-[60px]" src="./assets/sales1.png"/>
             <img className="lg:w-[50%] absolute top-[80px] right-8" src="./assets/sales2.png"/>
         </div>
