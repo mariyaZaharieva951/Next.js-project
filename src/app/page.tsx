@@ -6,6 +6,7 @@ import Integrations from "@/components/layout/Integrations/Integrations";
 import Marketing from "@/components/layout/Marketing/Marketing";
 import Service from "@/components/layout/Service/Service";
 import News from "@/components/layout/News/News";
+import Results from "@/components/layout/Results/Results";
 
 
 export default function Home() {
@@ -23,6 +24,7 @@ export default function Home() {
       </div>
       <Integrations/>
       <News/>
+      <Results/>
       
     </main>
   );
