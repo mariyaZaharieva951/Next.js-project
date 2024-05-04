@@ -9,6 +9,7 @@ import News from "@/components/layout/News/News";
 import Results from "@/components/layout/Results/Results";
 import Customers from "@/components/layout/Customers/Customers";
 import Cta from "@/components/Cta/Cta";
+import Footer from "@/components/layout/Footer/Footer";
 
 
 export default function Home() {
@@ -29,6 +30,7 @@ export default function Home() {
       <Results/>
       <Customers/>
       <Cta/>
+      <Footer/>
       
     </main>
   );
