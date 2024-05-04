@@ -1,7 +1,7 @@
 const Customers = () => {
   return (
     <div className=" bg-gray-bg">
-      <div className="custom-container font-custom-font pt-[80px] pb-[80px]">
+      <div className="custom-container font-custom-font pt-10 pb-[80px]">
         <div className="flex lg:flex-row flex-col lg:items-end justify-between my-[80px] mx-9 lg:mx-0">
           <h3 className="lg:w-[570px] text-center lg:text-start lg:text-5xl text-3xl font-bold">
             We love our Customers and They love us too

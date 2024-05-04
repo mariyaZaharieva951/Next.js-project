@@ -22,7 +22,7 @@ const Header = () => {
         </div>
       </div>
 
-      <nav className='lg:gap-12 hidden md:flex items-center text-sm lg:py-2'>
+      <nav className='lg:gap-[120px] hidden md:flex items-center text-sm lg:py-2'>
         <div className=''>
           <ul className='flex justify-between lg:gap-x-4  whitespace-nowrap lg:mx-5'>
             <li>
