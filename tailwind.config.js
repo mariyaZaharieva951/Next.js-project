@@ -16,6 +16,7 @@ module.exports = {
       'white-text': '#FFFFFF',
       'gray-bg': '#F4F4F4',
       'gray-dark': '#D9D9D9',
+      'gray-darked': '#787878',
       'blue-h': '#2D0896',
       'blue-bg': '#150050',
       'blue-benefit': '#1E0A57',
