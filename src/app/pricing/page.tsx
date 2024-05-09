@@ -1,6 +1,7 @@
 import Cta from "@/components/layout/Cta/Cta";
 import Footer from "@/components/layout/Footer/Footer";
 import Header from "@/components/layout/Header/Header";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 const Pricing = () => {
   return (
@@ -90,11 +91,49 @@ const Pricing = () => {
                 <button className="lg:text-lg font-bold bg-blue-bg text-white-text rounded-lg px-4 py-2 hover:bg-gray-light hover:cursor-pointer">Compare plans</button>
             </div>
         </div>
-        <div>
-            <h2></h2>
+        
+      </div>
+      <div className="bg-white-text pb-12">
+            <h2 className="lg:w-[594px] lg:text-6xl text-3xl font-bold text-left mb-[80px] ml-[190px] pt-[120px]">Frequently asked questions</h2>
+            <div className="lg:w-[945px] mx-auto h-auto  font-custom-font flex flex-col">
+                <div className="flex flex-col border-t-2 border-gray-darked">
+                    <div className="flex justify-between items-end">
+                        <h3 className="lg:text-3xl text-xl font-bold mt-10 mb-5">How Does Roooby CRM Compare To The Competition?</h3>
+                        <img src="./assets/add.png"/>
+                    </div>
+                    <p>Rooby CRM offers the most affordable, comprehensive platform to manage the entire customer journey, from generating leads, to closing deals and supporting your customers. With a full suite of CRM, sales enablement, marketing automation, and help desk/customer support capabilities, it’s all you need to manage the entire customer lifecycle. Most of our competitors offer one or two of these functions as separate products, leaving you with the headache of integrating them and increasing the overall price point.</p>
+                </div>
+                <div className="flex flex-col border-t-2 border-gray-darked mb-12 mt-5">
+                    <div className="flex justify-between items-end">
+                        <h3 className="lg:text-3xl text-xl font-bold mt-10">Can I Change Plans Or Cancel My Subscription At Any Time?</h3>
+                        <img src="./assets/add.png"/>
+                    </div>
+                    <p></p>
+                </div>
+                <div className="flex flex-col border-t-2 border-gray-darked mb-12 mt-5">
+                    <div className="flex justify-between items-end ">
+                        <h3 className="lg:text-3xl text-xl font-bold mt-10">How Secure Is My Data With Roooby CRM?</h3>
+                        <img src="./assets/add.png"/>
+                    </div>
+                    <p></p>
+                </div>
+                <div className="flex flex-col border-t-2 border-gray-darked mb-12 mt-5">
+                    <div className="flex justify-between items-end">
+                        <h3 className="lg:text-3xl text-xl font-bold mt-10">What Is The Uptime Guarantee?</h3>
+                        <img src="./assets/add.png"/>
+                    </div>
+                    <p></p>
+                </div>
+                <div className="flex flex-col border-t-2 border-gray-darked mb-12 mt-5">
+                    <div className="flex justify-between items-end">
+                        <h3 className="lg:text-3xl text-xl font-bold mt-10">How Can I Add More Emails To My Account?</h3>
+                        <img src="./assets/add.png"/>
+                    </div>
+                    <p></p>
+                </div>
+            </div>
             
         </div>
-      </div>
       <Cta />
       <Footer />
     </div>
