@@ -7,7 +7,7 @@ const Cta = () => {
                 <p>Ask about Roooby products, pricing, implementation, or anything else. Our highly trained reps are standing by, ready to help.</p>
            </div>
             <div className="text-center">
-                <button className="lg:text-base text- bg-white-text px-4 py-2 rounded-md text-black-tx font-bold">Try for Free {'>'}</button>
+                <button className="lg:text-base text- bg-white-text px-4 py-2 rounded-md text-black-tx font-bold hover:bg-gray-light">Try for Free {'>'}</button>
                 <p className="lg:text-sm text-xs mt-3">Full access. No credit required</p>
             </div>
         </div>

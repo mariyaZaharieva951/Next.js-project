@@ -35,7 +35,7 @@ const Pricing = () => {
               $8,90<span className="text-gray-darked text-base">/month</span>
             </p>
             <div className="flex flex-col gap-2 text-center">
-              <button className="lg:text-lg font-bold text-center py-2 border-2 border-gray-dark rounded-md">
+              <button className="lg:text-lg font-bold text-center py-2 border-2 border-gray-dark rounded-md hover:bg-gray-light">
                 Try for Free
               </button>
               <p className="lg:text-sm text-gray-dark">
@@ -96,7 +96,7 @@ const Pricing = () => {
               $29,90<span className="text-gray-darked text-base">/month</span>
             </p>
             <div className="flex flex-col gap-2 text-center">
-              <button className="lg:text-lg font-bold text-center py-2 border-2 bg-button-bg text-white-text rounded-md">
+              <button className="lg:text-lg font-bold text-center py-2 border-2 bg-button-bg text-white-text rounded-md hover:bg-gray-light">
                 Try for Free
               </button>
               <p className="lg:text-sm text-gray-dark">
@@ -152,7 +152,7 @@ const Pricing = () => {
               $39,90<span className="text-gray-darked text-base">/month</span>
             </p>
             <div className="flex flex-col gap-2 text-center">
-              <button className="lg:text-lg font-bold text-center py-2 border-2 border-gray-dark rounded-md">
+              <button className="lg:text-lg font-bold text-center py-2 border-2 border-gray-dark rounded-md hover:bg-gray-light">
                 Try for Free
               </button>
               <p className="lg:text-sm text-gray-dark">
