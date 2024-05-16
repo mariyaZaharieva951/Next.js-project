@@ -221,7 +221,7 @@ const Pricing = () => {
         <h2 className="lg:w-[594px] lg:text-6xl text-3xl font-bold text-left mb-[80px] lg:ml-[190px] ml-12 pt-[120px] lg:mr-[760px] mr-[300px]">
           Frequently asked questions
         </h2>
-        <div className="lg:w-[945px] h-auto font-custom-font flex flex-col lg:mr-[190px]">
+        <div className="lg:w-[945px] h-auto font-custom-font flex flex-col lg:mr-[190px] mx-5 lg:mx-0">
           <div className="flex flex-col border-t-2 border-gray-darked">
             <div className="flex justify-between lg:items-end items-start mb-12">
               <h3 className="lg:text-3xl text-xl font-bold lg:mt-10 mt-3">

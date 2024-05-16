@@ -15,7 +15,7 @@ const Blog = () => {
             <span className="text-gray-darked"> from our experts</span>
           </h1>
           <div className="lg:w-[689px]">
-            <ul className="flex gap-[60px] justify-start ">
+            <ul className="flex lg:gap-[60px] gap-10 justify-start text-nowrap">
               <li className=" text-gray-darked lg:text-lg pb-7 text-base hover:cursor-pointer hover:text-black-tx hover:font-bold hover:border-b-2 hover:border-green-tx">
                 All Articles
               </li>
@@ -40,7 +40,7 @@ const Blog = () => {
       </div>
       <div className="bg-white-text">
         <div className="lg:w-[1140px] mx-auto lg:custom-container flex flex-col lg:flex-row gap-7 py-[100px] font-custom-font">
-          <div className="flex flex-col items-start border-t-2 border-b-2 py-7 border-gray-darked">
+          <div className="flex flex-col items-start border-t-2 border-b-2 py-7 border-gray-darked mx-7 lg:mx-0">
             <p className="lg:text-sm text-xs uppercase text-gray-darked mb-5">
               Service
             </p>
@@ -52,16 +52,16 @@ const Blog = () => {
               05 Sep 2024,<span className="font-bold"> by Maxwell Iskiev</span>
             </p>
           </div>
-          <img className="w-[555px] h-[370px]" src="./assets/blog-img.png" />
+          <img className="w-[555px] h-[370px] mx-auto lg:mx-0" src="./assets/blog-img.png" />
         </div>
 
-        <div className="w-[1140px] mx-auto flex flex-nowrap gap-7 mb-[80px]">
-          <div className="flex flex-col gap-3 items-start">
+        <div className="lg:w-[1140px] mx-auto flex lg:flex-row flex-col justify-center flex-nowrap gap-7 mb-[80px]">
+          <div className="flex flex-col gap-3 items-start mx-[130px] lg:mx-0">
             <p className="text-base text-sm text-gray-darked uppercase font-bold">
               News
             </p>
             <img className="w-[361px] h-[241px]" src="./assets/blog1.png" />
-            <h3 className="lg:w-[361px] font-bold lg:text-2xl text-xl">
+            <h3 className="w-[361px] font-bold lg:text-2xl text-xl">
               Learn from My Mistakes: 7 Digital Course Pitfalls to Skip
             </h3>
             <p className="lg:text-base text-sm mt-3">
@@ -72,12 +72,12 @@ const Blog = () => {
               </span>
             </p>
           </div>
-          <div className="flex flex-col gap-3 items-start">
+          <div className="flex flex-col gap-3 items-start mx-[130px] lg:mx-0">
             <p className="text-base text-sm text-gray-darked uppercase font-bold">
               Sales
             </p>
             <img className="w-[361px] h-[241px]" src="./assets/blog2.png" />
-            <h3 className="lg:w-[361px]  font-bold lg:text-2xl text-xl">
+            <h3 className="w-[361px]  font-bold lg:text-2xl text-xl">
               How To Do Representation in Marketing the Right Way
             </h3>
             <p className="lg:text-base text-sm mt-3">
@@ -88,12 +88,12 @@ const Blog = () => {
               </span>
             </p>
           </div>
-          <div className="flex flex-col gap-3 items-start">
+          <div className="flex flex-col gap-3 items-start mx-[130px] lg:mx-0">
             <p className="text-base text-sm text-gray-darked uppercase font-bold">
               Sales
             </p>
             <img className="w-[361px] h-[241px]" src="./assets/blog3.png" />
-            <h3 className="lg:w-[361px]  font-bold lg:text-2xl text-xl">
+            <h3 className="w-[361px]  font-bold lg:text-2xl text-xl">
               The Psychology of Short-Form Content: Why We Love...
             </h3>
             <p className="lg:text-base text-sm mt-3">
@@ -105,13 +105,14 @@ const Blog = () => {
             </p>
           </div>
         </div>
-        <div className="w-[1140px] mx-auto flex flex-nowrap gap-7">
-          <div className="flex flex-col gap-3 items-start">
+
+        <div className="lg:w-[1140px] mx-auto flex lg:flex-row flex-col flex-nowrap gap-7">
+          <div className="flex flex-col gap-3 lg:items-start mx-[130px] lg:mx-0">
             <p className="text-base text-sm text-gray-darked uppercase font-bold">
               Sales
             </p>
             <img className="w-[361px] h-[241px]" src="./assets/blog4.png" />
-            <h3 className="lg:w-[361px] font-bold lg:text-2xl text-xl">
+            <h3 className="w-[361px] font-bold lg:text-2xl text-xl">
               The Challenger Sale model: How to lead the conversation
             </h3>
             <p className="lg:text-base text-sm mt-3">
@@ -122,12 +123,12 @@ const Blog = () => {
               </span>
             </p>
           </div>
-          <div className="flex flex-col gap-3 items-start">
+          <div className="flex flex-col gap-3 items-start mx-[130px] lg:mx-0">
             <p className="text-base text-sm text-gray-darked uppercase font-bold">
               Product
             </p>
             <img className="w-[361px] h-[241px]" src="./assets/blog5.png" />
-            <h3 className="lg:w-[361px] font-bold lg:text-2xl text-xl">
+            <h3 className="w-[361px] font-bold lg:text-2xl text-xl">
               3 ways To automate your lead generation process
             </h3>
             <p className="lg:text-base text-sm mt-3">
@@ -138,12 +139,12 @@ const Blog = () => {
               </span>
             </p>
           </div>
-          <div className="flex flex-col gap-3 items-start">
+          <div className="flex flex-col gap-3 items-start mx-[130px] lg:mx-0">
             <p className="text-base text-sm text-gray-darked uppercase font-bold">
               Product
             </p>
             <img className="w-[361px] h-[241px]" src="./assets/blog6.png" />
-            <h3 className="lg:w-[361px] font-bold lg:text-2xl text-xl">
+            <h3 className="w-[361px] font-bold lg:text-2xl text-xl">
               Marketplace Monthly Apps Spotlight: Aug 2023
             </h3>
             <p className="lg:text-base text-sm mt-3">
@@ -156,12 +157,12 @@ const Blog = () => {
           </div>
         </div>
 
-        <div className="lg:w-[1140px] mx-auto mt-[80px]">
+        <div className="lg:w-[1140px] mx-auto mt-[80px] px-7">
           <p className="text-sm text-gray-dark uppercase text-left mb-3">
             Marketing
           </p>
-          <div className="flex justify-between gap-5">
-            <div className="lg:w-[555px] lg:h-[581px] flex flex-col items-start gap-7 border-t-2 border-gray-dark pt-4">
+          <div className="flex lg:flex-row flex-col lg:justify-between justify-center gap-5">
+            <div className="lg:w-[555px] lg:h-[581px] flex flex-col lg:items-start  gap-7 border-t-2 border-gray-dark pt-4">
               <img src="./assets/blog-marketing.png" />
               <h3 className="lg:w-[555px] lg:text-3xl text-xl font-bold">Email marketing best practices: 10 experts share their email tips</h3>
               <p className="lg:text-base text-sm mt-3">23 Nov 2023,
@@ -201,13 +202,13 @@ Product Launch</h3>
           </div>
         </div>
 
-        <div className="w-[1140px] mx-auto flex flex-nowrap gap-7 pb-[100px] pt-[80px]">
-          <div className="flex flex-col gap-3 items-start">
+        <div className="lg:w-[1140px] mx-auto flex lg:flex-row flex-col flex-nowrap gap-7 pb-[100px] pt-[80px] px-7 lg:px-0">
+          <div className="w-[361px] flex flex-col gap-3 lg:items-start mx-[130px] lg:mx-0">
             <p className="text-base text-sm text-gray-darked uppercase font-bold">
               Service
             </p>
             <img className="w-[361px] h-[241px]" src="./assets/blog7.png" />
-            <h3 className="lg:w-[361px] font-bold lg:text-2xl text-xl">
+            <h3 className="w-[361px] font-bold lg:text-2xl text-xl">
             Sales Funnels: Definition, Process, Stages and Examples
             </h3>
             <p className="lg:text-base text-sm mt-3">
@@ -217,12 +218,12 @@ Product Launch</h3>
               </span>
             </p>
           </div>
-          <div className="flex flex-col gap-3 items-start">
+          <div className="w-[361px] flex flex-col gap-3 lg:items-start mx-[130px] lg:mx-0">
             <p className="text-base text-sm text-gray-darked uppercase font-bold">
               Sales
             </p>
             <img className="w-[361px] h-[241px]" src="./assets/blog8.png" />
-            <h3 className="lg:w-[361px]  font-bold lg:text-2xl text-xl">
+            <h3 className="w-[361px]  font-bold lg:text-2xl text-xl">
             What is a sales and how do you build one?
             </h3>
             <p className="lg:text-base text-sm mt-3">
@@ -232,12 +233,12 @@ Product Launch</h3>
               </span>
             </p>
           </div>
-          <div className="flex flex-col gap-3 items-start">
+          <div className="w-[361px] flex flex-col gap-3 lg:items-start mx-[130px] lg:mx-0">
             <p className="text-base text-sm text-gray-darked uppercase font-bold">
               Service
             </p>
             <img className="w-[361px] h-[241px]" src="./assets/blog9.png" />
-            <h3 className="lg:w-[361px]  font-bold lg:text-2xl text-xl">
+            <h3 className="w-[361px]  font-bold lg:text-2xl text-xl">
             10 real estate cold calling scripts to increase lead 
             </h3>
             <p className="lg:text-base text-sm mt-3">
