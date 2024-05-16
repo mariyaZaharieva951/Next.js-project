@@ -1,9 +1,7 @@
 "use client";
-import { useState } from "react";
-import Cta from "@/components/layout/Cta/Cta";
 import Footer from "@/components/layout/Footer/Footer";
 import Header from "@/components/layout/Header/Header";
-import Map from "@/components/layout/Map/Map";
+
 import Clients from "@/components/layout/Hero/Clients";
 
 const Contact = () => {
