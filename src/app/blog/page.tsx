@@ -3,6 +3,7 @@ import { useState } from "react";
 import Cta from "@/components/layout/Cta/Cta";
 import Footer from "@/components/layout/Footer/Footer";
 import Header from "@/components/layout/Header/Header";
+import Link from "next/link";
 
 const Blog = () => {
   return (
@@ -26,7 +27,7 @@ const Blog = () => {
                 Marketing
               </li>
               <li className=" text-gray-darked lg:text-lg pb-7 text-base hover:cursor-pointer hover:text-black-tx hover:font-bold hover:border-b-2 hover:border-green-tx">
-                Service
+                <Link href="/service">Service</Link>
               </li>
               <li className=" text-gray-darked lg:text-lg pb-7 text-base hover:cursor-pointer hover:text-black-tx hover:font-bold hover:border-b-2 hover:border-green-tx">
                 Product
@@ -52,7 +53,10 @@ const Blog = () => {
               05 Sep 2024,<span className="font-bold"> by Maxwell Iskiev</span>
             </p>
           </div>
-          <img className="w-[555px] h-[370px] mx-auto lg:mx-0" src="./assets/blog-img.png" />
+          <img
+            className="w-[555px] h-[370px] mx-auto lg:mx-0"
+            src="./assets/blog-img.png"
+          />
         </div>
 
         <div className="lg:w-[1140px] mx-auto flex lg:flex-row flex-col justify-center flex-nowrap gap-7 mb-[80px]">
@@ -164,38 +168,69 @@ const Blog = () => {
           <div className="flex lg:flex-row flex-col lg:justify-between justify-center gap-5">
             <div className="lg:w-[555px] lg:h-[581px] flex flex-col lg:items-start  gap-7 border-t-2 border-gray-dark pt-4">
               <img src="./assets/blog-marketing.png" />
-              <h3 className="lg:w-[555px] lg:text-3xl text-xl font-bold">Email marketing best practices: 10 experts share their email tips</h3>
-              <p className="lg:text-base text-sm mt-3">23 Nov 2023,
-                <span className="font-bold text-gray-darked">   by Joshua Nash</span>
+              <h3 className="lg:w-[555px] lg:text-3xl text-xl font-bold">
+                Email marketing best practices: 10 experts share their email
+                tips
+              </h3>
+              <p className="lg:text-base text-sm mt-3">
+                23 Nov 2023,
+                <span className="font-bold text-gray-darked">
+                  {" "}
+                  by Joshua Nash
+                </span>
               </p>
             </div>
             <div className="lg:w-[555px] lg:h-[581px] flex flex-col items-start">
               <div className="lg:w-[555px] flex flex-col items-start gap-5 border-t-2  border-gray-dark">
-                <h3 className="lg:text-3xl text-xl font-bold mt-5">Access Roooby leads features on your mobile</h3>
+                <h3 className="lg:text-3xl text-xl font-bold mt-5">
+                  Access Roooby leads features on your mobile
+                </h3>
                 <div className="lg:w-full flex justify-between gap-3">
-                  <p className="lg:text-base text-sm mb-7">11 Aug 2023,
-                    <span className="font-bold text-gray-darked"> by Joshua Nash</span>
+                  <p className="lg:text-base text-sm mb-7">
+                    11 Aug 2023,
+                    <span className="font-bold text-gray-darked">
+                      {" "}
+                      by Joshua Nash
+                    </span>
                   </p>
-                  <p className="lg:text-base text-sm text-gray-darked uppercase font-bold">Product</p>
+                  <p className="lg:text-base text-sm text-gray-darked uppercase font-bold">
+                    Product
+                  </p>
                 </div>
               </div>
               <div className="lg:w-[555px] flex flex-col items-start gap-5 border-t-2  border-gray-dark">
-                <h3 className="lg:text-3xl text-xl font-bold mt-5">Sales presentations: templates, examples and ideas on how to present like a pro</h3>
+                <h3 className="lg:text-3xl text-xl font-bold mt-5">
+                  Sales presentations: templates, examples and ideas on how to
+                  present like a pro
+                </h3>
                 <div className="lg:w-full flex justify-between gap-3">
-                  <p className="lg:text-base text-sm mb-7">11 Oct 2022,
-                    <span className="font-bold text-gray-darked"> by Laura Ryan</span>
+                  <p className="lg:text-base text-sm mb-7">
+                    11 Oct 2022,
+                    <span className="font-bold text-gray-darked">
+                      {" "}
+                      by Laura Ryan
+                    </span>
                   </p>
-                  <p className="lg:text-base text-sm text-gray-darked uppercase font-bold">Sales</p>
+                  <p className="lg:text-base text-sm text-gray-darked uppercase font-bold">
+                    Sales
+                  </p>
                 </div>
               </div>
               <div className="lg:w-[555px] flex flex-col items-start gap-5 border-t-2  border-gray-dark">
-                <h3 className="lg:text-3xl text-xl font-bold mt-5">How To Deliver a Successful 
-Product Launch</h3>
+                <h3 className="lg:text-3xl text-xl font-bold mt-5">
+                  How To Deliver a Successful Product Launch
+                </h3>
                 <div className="lg:w-full flex justify-between gap-3">
-                  <p className="lg:text-base text-sm">30 Jan 2022,
-                    <span className="font-bold text-gray-darked">  by Alice Washington</span>
+                  <p className="lg:text-base text-sm">
+                    30 Jan 2022,
+                    <span className="font-bold text-gray-darked">
+                      {" "}
+                      by Alice Washington
+                    </span>
                   </p>
-                  <p className="lg:text-base text-sm text-gray-darked uppercase font-bold">News</p>
+                  <p className="lg:text-base text-sm text-gray-darked uppercase font-bold">
+                    News
+                  </p>
                 </div>
               </div>
             </div>
@@ -209,13 +244,11 @@ Product Launch</h3>
             </p>
             <img className="w-[361px] h-[241px]" src="./assets/blog7.png" />
             <h3 className="w-[361px] font-bold lg:text-2xl text-xl">
-            Sales Funnels: Definition, Process, Stages and Examples
+              Sales Funnels: Definition, Process, Stages and Examples
             </h3>
             <p className="lg:text-base text-sm mt-3">
-            01 Dec 2022,
-              <span className="font-bold text-gray-darked">
-               by Edith Rose
-              </span>
+              01 Dec 2022,
+              <span className="font-bold text-gray-darked">by Edith Rose</span>
             </p>
           </div>
           <div className="w-[361px] flex flex-col gap-3 lg:items-start mx-[130px] lg:mx-0">
@@ -224,12 +257,12 @@ Product Launch</h3>
             </p>
             <img className="w-[361px] h-[241px]" src="./assets/blog8.png" />
             <h3 className="w-[361px]  font-bold lg:text-2xl text-xl">
-            What is a sales and how do you build one?
+              What is a sales and how do you build one?
             </h3>
             <p className="lg:text-base text-sm mt-3">
-            29 Mar 2022,
+              29 Mar 2022,
               <span className="font-bold text-gray-darked">
-              by Amanda Brooks
+                by Amanda Brooks
               </span>
             </p>
           </div>
@@ -239,17 +272,16 @@ Product Launch</h3>
             </p>
             <img className="w-[361px] h-[241px]" src="./assets/blog9.png" />
             <h3 className="w-[361px]  font-bold lg:text-2xl text-xl">
-            10 real estate cold calling scripts to increase lead 
+              10 real estate cold calling scripts to increase lead
             </h3>
             <p className="lg:text-base text-sm mt-3">
-            27 Dec 2022,
+              27 Dec 2022,
               <span className="font-bold text-gray-darked">
-              by Roxie Sandoval
+                by Roxie Sandoval
               </span>
             </p>
           </div>
         </div>
-
       </div>
 
       <Cta />
