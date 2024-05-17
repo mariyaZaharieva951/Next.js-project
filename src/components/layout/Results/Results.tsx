@@ -4,7 +4,7 @@ const Results = () => {
         <div className="custom-container font-custom-font pt-[180px]">
             <div className="mb-12 text-center lg:text-left">
                 <h3 className="font-bold lg:text-5xl text-3xl mb-3">Real-life results and revenue</h3>
-                <p className="text-lg">See how companies like yours have smashed their sales success goals</p>
+                <p className="text-lg">See how companies, like yours have smashed their sales success goals</p>
             </div>
             <div>
                 <article className="flex justify-between items-start border-t-2 border-[#787878] py-12 mx-10 lg:mx-0">
