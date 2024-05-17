@@ -16,7 +16,7 @@ const Copyrights = () => {
 
   return (
     <div className="lg:w-[1140px] h-auto mx-auto flex lg:flex-row flex-col gap-3 lg:gap-0 lg:justify-between font-custom-font text-sm items-center justify-center border-t-2 border-gray-dark py-[50px]">
-      <p>&reg Copyright 2024</p>
+      <p> Copyright 2024</p>
       <div>
         <ul className="flex gap-12">
           <li>Terms of Service</li>
